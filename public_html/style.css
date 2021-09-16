@@ -1,11 +1,12 @@
 body {
-    display: block;
+    display: inline;
     overflow-x: hidden;
-    background-color: #000;
-    background-image: url('https://media.giphy.com/media/tIwmTQ64D52XTuL8xd/giphy.gif');
-    background-size: revert;
-
-
+    font-family: 'Architects Daughter', cursive;
+    background:url(images/Starry.jpg) no-repeat fixed center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
@@ -13,25 +14,15 @@ body {
 
 
 
-nav {
-    background-color: black;
-    color: #fff;
-}
+
 
 .navbar-brand {
-    font-size: 24px;
+    font-size: 30px;
     text-transform: uppercase;
     font-weight: 900;
-    color: #BE8ABF;
+
 }
-nav ul li a {
-    color: #BE8ABF;
-    font-size: 22px;
-    margin: auto 10px;
-}
-nav ul li a:hover {
-    color: #BE8ABF;
-}
+
 
 
 
@@ -49,14 +40,14 @@ section {
 section h1 {
     text-transform: uppercase;
     font-weight: 900;
-    color: #BE8ABF;
+    color: #A6D6D6;
     text-align: left;
     margin-bottom: 20px;
 }
 section p {
     font-size: 16px;
     font-weight: 300;
-    color: #F0D9FF;
+    color: #A6D6D6;
 }
 button {
     max-width: 50%;
@@ -86,16 +77,18 @@ button {
     height: 50px;
     margin-bottom: 20px;
 }
-
+h5,h2,h4{
+    color: #A6D6D6;
+}
 
 #contact h1 {
     text-align: center;
-    color:#BE8ABF;
+    color:#A6D6D6;
 }
 
 .contactf{text-transform: uppercase;
     font-weight: 900;
-    color: #BE8ABF;
+    color: #A6D6D6;
 
 
 
@@ -107,7 +100,7 @@ button {
     text-align: center;
     margin: 0 auto;
     padding: 40px 0;
-    color: #BE8ABF;
+    color: #A6D6D6;
     text-transform: uppercase;
     letter-spacing: 6px;
 }
@@ -125,7 +118,7 @@ button {
 textarea {
     max-width: 400px;
     background-color: #000;
-    color: #BE8ABF;
+    color: #A6D6D6;
     letter-spacing: 1px;
 
 
@@ -144,7 +137,7 @@ textarea {
     width: 400px;
     height: 34px;
     transition: all .2s ease-in-out;
-    color:#BE8ABF;
+    color:#A6D6D6;
 }
 
 .send-text {
@@ -170,13 +163,13 @@ textarea {
 
 .list-item {
     line-height: 4;
-    color: #BE8ABF;
+    color: #A6D6D6;
 }
 
 .contact-text {
     font: 300 18px 'Lato', sans-serif;
     letter-spacing: 1.9px;
-    color:  #BE8ABF;
+    color:  #A6D6D6;
 }
 
 .place {
@@ -192,13 +185,13 @@ textarea {
 }
 
 .contact-text a {
-    color:  #BE8ABF;
+    color:  #A6D6D6;
     text-decoration: none;
     transition-duration: 0.2s;
 }
 
 .contact-text a:hover {
-    color: #BE8ABF;
+    color: #A6D6D6;
     text-decoration: none;
 }
 
@@ -214,7 +207,7 @@ textarea {
 }
 
 .social-media-list li a {
-    color: #BE8ABF;
+    color: #A6D6D6;
 }
 
 .social-media-list li {
@@ -225,7 +218,7 @@ textarea {
     margin: 10px 3px;
     line-height: 60px;
     border-radius: 50%;
-    color: #BE8ABF;
+    color: #A6D6D6;
     background-color: rgb(27,27,27);
     cursor: pointer;
     transition: all .2s ease-in-out;
@@ -241,12 +234,12 @@ textarea {
     line-height: 60px;
     border-radius: 50%;
     opacity: 0;
-    box-shadow: 0 0 0 1px #BE8ABF;
+    box-shadow: 0 0 0 1px #A6D6D6;
     transition: all .2s ease-in-out;
 }
 
 .social-media-list li:hover {
-    background-color: #BE8ABF;
+    background-color: #A6D6D6;
 }
 
 .social-media-list li:hover:after {

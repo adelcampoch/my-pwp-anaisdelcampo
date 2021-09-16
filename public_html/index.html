@@ -10,7 +10,7 @@
     <!--Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Georama:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
     <!--style-->
     <link rel="stylesheet" href="style.css">
 
@@ -24,33 +24,42 @@
 <!-- partial:index.partial.html -->
 
 <!-- Navbar -->
-<div class="position-absolute top-0 start-0">
-<nav class="navbar navbar-expand-lg navbar-dark text-white"  style="background-color: #000000;" >
-    <!-- Container wrapper -->
+<nav class="navbar navbar-dark bg-transparent">
+    <!-- Navbar content -->
 
-        <!-- Collapsible wrapper -->
-        <div class="position-absolute top-0 start-0">
-        <div class="collapse navbar-collapse" id="navbarButtonsExample">
-            <!-- Left links -->
-            <ul class="navbar-nav ml-auto">
+    <a class="navbar-brand"><img
+            src="images/5.jpeg"
+            class="rounded-circle"
+            height="70"
+            width="70"
+            alt=""
+            loading="lazy"
+    />
+    </a>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Work</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-            <!-- Left links -->
-
-        </div>
-        </div>
-        </nav>
-       </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about-us">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#project">WORK</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact1">CONTACT</a>
+            </li>
+        </ul>
+        <span class="navbar-text">
+      </span>
+    </div>
+    </div>
+</nav>
 <!-- Navbar -->
+
+
 
 
 
@@ -58,33 +67,62 @@
 <!-- About us section -->
 <div class="container">
 <section id="about-us">
-    <div class="row align-items-center">
-            <div class="col">
-                <img src="images/2.jpg" class="img-fluid" alt="Anais" width="250" height="250">
-            </div>
-            <div class="col text-col">
-                <h1>Hi i'm Anais.</h1>
-                <p>I'm a Full Stack Developer and a Web Designer
-                    based in Albuquerque NM.
-                    I have acquired the skills necessary to build great and premium websites. I like to keep it simple.
-                    Conveying the message that you want to send.</p>
-            </div>
-        </div>
+    <div class="d-flex justify-content-start">
+
+    <div class="col">
+        <img class="img-fluid rounded-pill" src="images/meandcats.jpg" class="img-fluid" alt="Anais and her cats" width="350" height="350">
+    </div>
+    <div class="col te xt-col">
+        <a name="about"></a>
+        <h1>HELLO!</h1>
+        <p>MY NAME IS ANAIS I'M A FULLSTACK DEVELOPER AND A DESIGNER BASED IN ALBUQUERQUE NM.</p>
+        <H4><strong>FIRST THINGS FIRST:</strong></H4>
+        <P>
+            I STUDIED GRAPHIC & INTERIOR DESIGN AND ATTENDED A FULLSTACK WEB DEVELOPMENT BOOTCAMP.
+            I'M ALWAYS OPEN TO LEARNING NEW THINGS.
+            IN MY SPARE TIME,I PLAY HIDE AND SEEK WITH MY CATS.🙂
+        </P>
+    </div>
+</div>
 </section>
 </div>
 <!-- End About us section -->
 
 
+
+
+
+
+
+
+
+
+
+
+
 <!-- Projects section -->
-<div class="container d-flex justify-content-center">
 
-    <img
-            src="https://mdbootstrap.com/img/new/standard/city/041.jpg"
-            class="img-thumbnail"
-            alt="Capstone project"
-    />
+<a name="project"></a>
+<div class="container">
+    <section id="project">
+        <div class="row align-items-center">
+            <div class="col">
+                <img class="img-fluid rounded-pill" src="images/capstone1.jpeg" class="capstone" alt="Anais" height="350" width="350" >
+            </div>
+            <div class="col text-col">
+                <a name="work"></a>
+                <H2><strong>WORK</strong></H2>
+                <H5><strong>CAPSTONE PROJECT</strong></H5>
+                <p>
+                    SCHOLARSHIP FINDER APP
+                </p>
+                <p>
+                    IS AN INFORMATIONAL WEB APP WHICH HELPS TO SEARCH SCHOLARSHIPS FOR NEW MEXICO STUDENTS.
+                </p>
+            </div>
+        </div>
+    </section>
 </div>
-
 
 
 <!-- End Projects section -->
@@ -127,6 +165,9 @@
 <div id="output-area"></div>
 
 
+
+<!--icons-->
+<a name="contact1"></a>
 <div class="direct-contact-container container">
     <ul class="social-media-list">
         <li><a href="https://github.com/adelcampoch" target="_blank" class="contact-icon">
@@ -138,7 +179,7 @@
         <li><a href="https://www.linkedin.com/in/anais-del-campo-7a6aa1217/" target="_blank" class="contact-icon">
             <i class="fab fa-linkedin" aria-hidden="true"></i></a>
         </li>
-        <li><a href="#" target="_blank" class="contact-icon">
+        <li><a href="www.instagram.com/anispispis" target="www.instagram.com/anispispis" class="contact-icon">
             <i class="fab fa-instagram" aria-hidden="true"></i></a>
     </ul>
 </div>
